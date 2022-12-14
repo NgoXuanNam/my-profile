@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header/Header';
+import Section from './components/Section/Section';
+import LoadingIcon from './components/Loading/Loading';
+import { useEffect, useState } from 'react';
+import Footer from './components/Footer/Footer';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false);
+        }, 800);
+    }, []);
+
+    return loading ? (
+        <LoadingIcon />
+    ) : (
+        <div className="App">
+            <Header />
+            <div>
+                <img
+                    src="https://www.anhtuan.info/static/media/footer.052a5d1163d9b90e7617.png"
+                    alt="bg"
+                    className="w-full h-[150px]"
+                />
+            </div>
+            <Section />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
