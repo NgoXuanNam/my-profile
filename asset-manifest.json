@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/my-profile/static/css/main.f6a93af3.css",
-    "main.js": "/my-profile/static/js/main.9becf425.js",
+    "main.css": "/my-profile/static/css/main.dfe30c87.css",
+    "main.js": "/my-profile/static/js/main.4ff63980.js",
     "static/js/787.38de3e28.chunk.js": "/my-profile/static/js/787.38de3e28.chunk.js",
     "static/media/coffeeshop.png": "/my-profile/static/media/coffeeshop.f4c86df3c4651635daf7.png",
     "static/media/envato-market.png": "/my-profile/static/media/envato-market.7e18aaabf5140eff7263.png",
     "static/media/music.png": "/my-profile/static/media/music.64b5c27bfd49a97b5e18.png",
     "static/media/nxn.jpg": "/my-profile/static/media/nxn.9bb44eb574fcbbd603d8.jpg",
-    "static/media/loading.gif": "/my-profile/static/media/loading.daad41c3e073e75dc298.gif",
     "static/media/bootstrap.png": "/my-profile/static/media/bootstrap.44244003cae2a016316c.png",
     "static/media/CV_NgoXuanNam_FrontEnd_Intern.pdf": "/my-profile/static/media/CV_NgoXuanNam_FrontEnd_Intern.12fa68b0332d3ddd9d2b.pdf",
     "static/media/tailwindcss.png": "/my-profile/static/media/tailwindcss.46d61abb086e8a8bd39e.png",
@@ -17,12 +16,12 @@
     "static/media/html.png": "/my-profile/static/media/html.397540dec969b31fd37c.png",
     "static/media/css.png": "/my-profile/static/media/css.463e319bad8e0edf1ef7.png",
     "index.html": "/my-profile/index.html",
-    "main.f6a93af3.css.map": "/my-profile/static/css/main.f6a93af3.css.map",
-    "main.9becf425.js.map": "/my-profile/static/js/main.9becf425.js.map",
+    "main.dfe30c87.css.map": "/my-profile/static/css/main.dfe30c87.css.map",
+    "main.4ff63980.js.map": "/my-profile/static/js/main.4ff63980.js.map",
     "787.38de3e28.chunk.js.map": "/my-profile/static/js/787.38de3e28.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6a93af3.css",
-    "static/js/main.9becf425.js"
+    "static/css/main.dfe30c87.css",
+    "static/js/main.4ff63980.js"
   ]
 }
